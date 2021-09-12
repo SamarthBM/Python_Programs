@@ -29,4 +29,5 @@ def wind_chill():
         windChill = 35.74 + 0.6215 * temperature +(0.4275*temperature + 35.75)*m.pow(wind_speed,0.16)
         print("Wind chil for the given temperature and wind speed is: ",windChill)
 
-wind_chill()
+if __name__ == "__main__":
+    wind_chill()    
