@@ -20,13 +20,13 @@ def wind_chill():
     """    
 
     temperature = float(input("Enter temperature in fahrenheit in between the range 0 to 50: "))
-    wind_speed = float(input( "Enter wind speed in between the range 3 to 120: "))
+    windSpeed = float(input( "Enter wind speed in between the range 3 to 120: "))
 
-    if(temperature > 50 or wind_speed < 3 or wind_speed > 120):
+    if(temperature > 50 or windSpeed < 3 or windSpeed > 120):
         print("Wind chill cannot be found for the entered condition")
 
     else:
-        windChill = 35.74 + 0.6215 * temperature +(0.4275*temperature + 35.75)*m.pow(wind_speed,0.16)
+        windChill = 35.74 + 0.6215 * temperature +(0.4275*temperature + 35.75)*m.pow(windSpeed,0.16)
         print("Wind chil for the given temperature and wind speed is: ",windChill)
 
 if __name__ == "__main__":
