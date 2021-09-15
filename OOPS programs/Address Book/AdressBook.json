@@ -1,0 +1,22 @@
+[
+  {
+    "ID": "18",
+    "firstName": "Samarth",
+    "lastName": "Bm",
+    "mobile": "919587452365",
+    "address": "Sslayout",
+    "state": "Karnataka",
+    "city": "Davanagere",
+    "zip": "577004"
+  },
+  {
+    "ID": "17",
+    "firstName": "Virat",
+    "lastName": "Kohli",
+    "mobile": "919998887445",
+    "address": "Peenya",
+    "state": "Punjab",
+    "city": "Mohali",
+    "zip": "554114"
+  }
+]
