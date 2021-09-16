@@ -2,6 +2,12 @@ from LoggerFile import logger
 import re 
 
 class Validation:
+    """
+    Description:
+        This class holds the methods to validate all the details entered by User.
+        Regex is used to validate the details.
+
+    """    
 
     def validate_id():
         """
