@@ -2,7 +2,7 @@
 * @Author: Samarth BM.
 * @Date: 2021-09-15 13:40  
 * @Last Modified by: Samarth BM
-* @Last Modified time: 2021-09-15 13:40 
+* @Last Modified time: 2021-09-16 14:22 
 * @Title: :To create a address book.
 """
 import json
@@ -12,6 +12,12 @@ from LoggerFile import logger
 from Validation import Validation
 
 class AddressBookImpl:
+    """
+    Description:
+        This class holds the methods to simulate the address book.
+        Methods created: add_details, edit_details, remove_details and display.
+
+    """    
 
     def __init__(self):
         self.address_book = []
@@ -96,7 +102,7 @@ class AddressBookImpl:
 
         try: 
             if len(self.address_book) >= 1: # Checking if any contact details exists.
-                id = input("Enter Your id to edit the details: ")
+                id = input("Confirm Your id to edit the details: ")
                 for i in range(len(self.address_book)): 
                     if (self.address_book[i]['ID'] == id): # Checking if entered id is present.                                          
                             option = int(input("Choose the following to edit\n 1 First Name \n 2 Last Name \n 3 Mobile Number\n 4 Address \n 5 State \n 6 city \n 7 Zip \n  "))
@@ -156,7 +162,7 @@ class AddressBookImpl:
         """
         try:
             if len(self.address_book) >= 1: # Checking if any contact details exists.
-                id = input("Enter Your id to edit the details: ")
+                id = input("Confirm Your id to remove the details: ")
                 for i in range(len(self.address_book)): 
                     if (self.address_book[i]['ID'] == id): # Checking if entered id is present.
                         del self.address_book[i]
