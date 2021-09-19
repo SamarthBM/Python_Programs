@@ -14,7 +14,7 @@ def create_tuple():
         This function is to create a tuple.
     """
     try:
-        my_tuple = ("samarth", 23, "India")
+        my_tuple = (18, 23, 17, 22, 8)
         print(my_tuple)
 
 
