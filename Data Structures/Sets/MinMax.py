@@ -18,6 +18,7 @@ def min_max():
 
         print("Maximum number is: ", max(my_set))
         print("Minimum number is: ", min(my_set))
+        
         logger.info("Maximum and minimum number found")
 
     except Exception:
