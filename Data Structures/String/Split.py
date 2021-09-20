@@ -16,7 +16,6 @@ def split_string():
     try:
         
         string = 'https://www.w3resource.com/python-exercises/string'
-        
         print(string.rsplit('/', 1)[0])
         print(string.rsplit('-', 1)[0])
 
